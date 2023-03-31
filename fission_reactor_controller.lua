@@ -30,6 +30,9 @@ repeat
     print("Reactor \27[31mOFFLINE\27[37m")
   end
   print("")
+  print("Power Output")
+  print(power)
+  print("")
   print("Heat")
   print(currentHeat .. "/" .. maxHeat)
   print("")
