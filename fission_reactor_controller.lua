@@ -21,7 +21,7 @@ repeat
   fuelname = reactor.getFissionFuelName()
   efficiency = reactor.getEfficiency()
   procheat = reactor.getReactorProcessHeat()
-  maxHeat = 42230000
+  maxHeat = reactor.getMaxHeatLevel()
   fuelburntime = reactor.getFissionFuelTime() - reactor.getCurrentProcessTime()
   if(power < 0) then
     print("Reactor \27[32mONLINE\27[37m")
